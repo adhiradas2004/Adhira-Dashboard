@@ -1,71 +1,76 @@
-# Adhira-Dashboard
-# 📊 Amazon Product Sales Analysis Dashboard
+# 📊 Adhira Power BI Dashboards
 
-## 📝 Project Overview
-
-This interactive Power BI dashboard provides a comprehensive **Year-to-Date (YTD)** and **Quarter-to-Date (QTD)** analysis of Amazon product sales across various categories. Built to showcase strong data modeling, DAX, and visualization skills, this project helps identify performance trends, top products, and category-wise contributions. It is designed for stakeholders to make informed, data-driven decisions quickly and effectively.
+This repository contains multiple Power BI dashboards created as part of data visualization and analytics practice. Each project demonstrates the use of Power BI, DAX, data modeling, and storytelling through dashboards.
 
 ---
 
-## 🛠️ Tech Stack Used
+## 📁 Projects Included
 
-- **Power BI Desktop** – for building and publishing the dashboard  
-- **Power Query (M Language)** – for data extraction, transformation, and loading (ETL)  
-- **DAX (Data Analysis Expressions)** – for custom measures, KPIs, and calculated fields  
-- **Data Modeling** – implemented star schema with proper relationships and hierarchies  
-- **File Format** – `.pbix` (Power BI file)  
-- **Microsoft Excel / CSV** – used as the primary data source  
-- **GitHub** – for version control and showcasing the project
+1. [Amazon Product Sales Dashboard](#-project-1-amazon-product-sales-dashboard)  
+2. [Hospital Management Dashboard](#-project-2-hospital-management-dashboard)
 
 ---
 
-## 📂 Data Source
+## 📊 Project 1: Amazon Product Sales Dashboard
 
-- **Format:** Microsoft Excel / CSV  
-- **Type:** Simulated dataset created for educational and analytical purposes  
-- **Fields Included:**  
-  - Product Category  
-  - YTD Sales  
-  - QTD Sales  
-  - Product Reviews  
-  - Weekly & Monthly Sales  
-  - Product Names  
+This interactive Power BI dashboard provides a comprehensive **Year-to-Date (YTD)** and **Quarter-to-Date (QTD)** analysis of Amazon product sales across various categories. It highlights product trends, sales performance, and customer reviews for business insights.
 
----
+### 🛠️ Tech Stack
 
-## ✨ Dashboard Features
+- Power BI Desktop  
+- Power Query (M Language)  
+- DAX  
+- Data Modeling  
+- File Format: `.pbix`  
+- Data Source: Simulated Excel/CSV file  
 
-- **📌 YTD & QTD KPIs** – Track key business performance metrics  
-- **📆 Sales by Time** – Trends shown across months and weeks  
-- **📦 Category-wise Sales** – Total sales, contribution %, and insights  
-- **🏆 Top Products** – Based on both sales and customer reviews  
-- **📊 Interactive Visuals** – Slicers and filters for better analysis  
-- **🎯 % Contribution Chart** – Understand which categories drive growth  
-- **🧠 Business Storytelling** – Dashboard designed for clear, actionable insights
+### ✨ Features
 
----
+- YTD & QTD KPIs  
+- Monthly and Weekly Sales Trend  
+- Product Category Breakdown  
+- Top 5 Products by Sales & Reviews  
+- Interactive Filters and Clean UI  
 
-## 📈 Key Visuals
+### 📎 Screenshot
 
-- Line Chart: Monthly Sales Trend  
-- Bar Chart: Weekly Sales Distribution  
-- Matrix Table: Product-wise Sales Contribution  
-- Horizontal Bars: Top 5 Products by Sales and Reviews  
-- KPI Cards: YTD Sales, QTD Sales, Products Sold, Reviews  
+![Amazon Dashboard Screenshot](https://github.com/adhiradas2004/Adhira-Dashboard/blob/main/Amazon%20Product%20%2C%20Sales%20Analysis%20Dashboard.png?raw=true)
 
 ---
 
-## 📎 Screenshot
+## 🏥 Project 2: Hospital Management Dashboard
 
-![Dashboard Screenshot](https://github.com/adhiradas2004/Adhira-Dashboard/blob/main/Amazon%20Product%20%2C%20Sales%20Analysis%20Dashboard.png?raw=true)
+This Power BI dashboard provides a detailed overview of patient case types, specialties, average wait times, and age profiles over a historical period. It is designed to help hospital administrators track performance, waitlists, and resource usage.
 
----
+### 🛠️ Tech Stack
 
-## 📁 Repository Contents
+- Power BI Desktop  
+- Power Query (M Language)  
+- DAX  
+- Data Modeling  
+- File Format: `.pbix`  
+- Data Source: Simulated Excel/CSV file  
 
-- `Amazon_Product_Sales_Dashboard.pbix` – Power BI project file  
-- `README.md` – Project documentation  
-- `Amazon Product , Sales Analysis Dashboard.png` – Dashboard screenshot  
-- `Sample_Data.xlsx` *(optional)* – Dataset used in the dashboard  
+### ✨ Features
+
+- Latest vs Previous Month Wait List  
+- Department-wise Specialty Summary  
+- Patient Count by Case Type (Inpatient, Outpatient, Day Case)  
+- Age Profile vs Time Band Analysis  
+- Monthly Trends across case types  
+- Interactive Slicers: Case Type, Specialty, Age Profile, Time Band  
+- Fully Dynamic Table View for drill-down  
+
+### 📎 Screenshots
+
+#### 🔹 Summary & Trends
+![Summary & Trends](https://github.com/adhiradas2004/Adhira-Dashboard/blob/main/Hospital%20Dashboard.png?raw=true)
+
+#### 🔹 Detailed View Table
+![Detailed View](https://github.com/adhiradas2004/Adhira-Dashboard/blob/main/Hospital%20Detailed%20View%20Dashboard%20-%20Copy.png?raw=true)
+
+#### 🔹 Specialty Group Chart
+![Specialty Group](https://github.com/adhiradas2004/Adhira-Dashboard/blob/main/Hospital%20Dashboard%20Specialty%20Group.png?raw=true)
+
 
 ---
